@@ -1,0 +1,68 @@
+/* Style untuk seluruh body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adeead; /* Warna hijau sangat muda untuk latar belakang */
+    color: #333; /* Warna teks */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style untuk form login */
+form {
+    background-color: #99fc8c; /* Warna putih untuk latar belakang form */
+    padding: 20px;
+    border: 2px solid #389651; /* Border hijau */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sedikit bayangan */
+    width: 280px;
+}
+
+/* Style untuk judul login */
+h2 {
+    text-align: center;
+    color: #6abe82; /* Warna hijau */
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2e7d32; /* Warna hijau sedang */
+}
+
+/* Style untuk input text dan password */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #a5d6a7; /* Warna hijau muda untuk border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Warna latar belakang input */
+}
+
+/* Style untuk tombol login */
+button {
+    width: 100%;
+    background-color: #61ce7e; /* Warna hijau untuk tombol */
+    color: rgb(232, 255, 232);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Style tombol saat di-hover */
+button:hover {
+    background-color: #38a856; /* Warna hijau lebih gelap saat tombol di-hover */
+}
+
+/* Style untuk div yang mengelompokkan input dan label */
+div {
+    margin-bottom: 15px;
+}
