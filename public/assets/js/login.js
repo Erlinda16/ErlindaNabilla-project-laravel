@@ -1,5 +1,5 @@
-document.getElementById('LoginForm').addEventListener('submit', function(event){
-    event.preventDefault();
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
 
     const correctUsername = "erlinda";
     const correctPassword = "erlinda";
@@ -7,10 +7,10 @@ document.getElementById('LoginForm').addEventListener('submit', function(event){
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if(username === correctPassword && password === correctPassword){
+    if (username === correctUsername && password === correctPassword) { 
         alert("YEY LOGIN BERHASIL!");
-        window.location.href = 'index.blade.php';
-    }else{
+        window.location.href = '/index'; 
+    } else {
         alert("USERNAME ATAU PASSWORD TIDAK SESUAI. AYO COBA LAGI!");
     }
 });
