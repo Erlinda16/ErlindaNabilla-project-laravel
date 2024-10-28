@@ -6,6 +6,12 @@
   @vite('resources/css/app.css')
 </head>
 <body>
+<h1 class="text-3xl font-bold text-blue-600 my-4">
+    Hello, I'm {{ $name }}!
+</h1>
+<p class="text-2xl p-4 text-gray-700 bg-gray-100 rounded-lg shadow-md">
+    I live in {{ $address }}, and my email is {{ $email }}
+</p>
 <!-- Bagian Tentang -->
 <section id="about" class="bg-green-50 py-12">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
@@ -25,8 +31,8 @@
       <p class="mt-4 text-lg text-gray-700 leading-7">
         Dengan informasi yang kami sajikan, kami berharap masyarakat dapat lebih menyadari pentingnya mengonsumsi sayuran setiap hari guna mencapai pola makan yang sehat dan seimbang.
       </p>
-      <a href="#more" class="mt-6 inline-block bg-green-500 text-white px-6 py-2 rounded-md shadow hover:bg-green-600">
-        Pelajari Lebih Lanjut
+      <a href="{{ route ('index') }}" class="mt-6 inline-block bg-green-500 text-white px-6 py-2 rounded-md shadow hover:bg-green-600">
+        Pelajari Lebih Lanjut 
       </a>
     </div>
   </div>
